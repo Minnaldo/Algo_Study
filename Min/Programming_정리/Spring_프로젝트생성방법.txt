@@ -1,0 +1,14 @@
+new -> Spring Legacy Project -> Simple Spring Maven (Application(프로젝트이름))
+-> app패키지에 (Member.java) & (SpringClient.java)
+
+
+src/main/resrouces -> Spring bean definition file
+:applicationContext.xml (xml파일 이름)
+-xml파일에 Namespaces에 beans이 체크 되어있어야 함.
+  =>Namespace Viersions에 버전이 하나 체크되어있음.
+*이렇게 추가하고 나면, 소스에 자동으로 xmlns:aop  or xmlns:context  추가가 되어있음.
+
+
+annotation 을 하려면
+-Namespaces에서 : context 를 추가해야 한다.
+
